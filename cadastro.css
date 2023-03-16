@@ -5,7 +5,8 @@ body
     margin: 0;
     overflow: hidden;
     display: flex;
-    
+    background-color: rgb(0, 0, 0); 
+       
 
 }
 
@@ -20,7 +21,7 @@ body
 {
 width: 1200px;
 height: 1200px;
-background-color: rgb(100, 97, 97);
+background-color: rgb(23, 8, 65);
 border-radius: 1000px;
 position: relative;
 top: -500px;
@@ -33,14 +34,16 @@ justify-content: center;
 justify-items: center;
 align-items: center;
 align-content: center;
+flex-direction: column;
 color: white;
-font-size: 100px;
+font-size: 80px;
+font-family: sans-serif;
 }
 .Entrar
 {
     width: 25%;
-    height: 70vh;
-    background-color: grey;
+    
+    background-color: rgb(23, 8, 65);
     left: 925px;
     top: 110px;
     position: absolute;
@@ -59,6 +62,8 @@ font-size: 100px;
     border-color: black;
     border-width: 2px;
     border-style: solid;
+    
+    
 }
 form
 {
@@ -68,4 +73,49 @@ form
     align-items: center;
     align-content: center;
     flex-direction: column;
+}
+legend
+{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    color: #ffff;
+    font-family: hack, sans-serif;
+    
+}
+.logo
+{
+    position: absolute;
+    top: 650px;
+}
+.enlete
+{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    width: 72%;
+}
+
+.butao
+{
+width: 25%;
+height: 30px;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+border-radius: 15px;
+
+}
+.butao:hover
+{
+    background-color: black;
+    color: white;
+    cursor:pointer
 }
