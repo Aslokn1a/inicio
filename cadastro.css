@@ -76,7 +76,7 @@ form
 }
 legend
 {
-    font-size: 30px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -84,7 +84,7 @@ legend
     align-content: center;
     flex-direction: column;
     color: #ffff;
-    font-family: hack, sans-serif;
+    
     
 }
 .logo
