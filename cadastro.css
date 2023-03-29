@@ -5,7 +5,7 @@ body
     margin: 0;
     overflow: hidden;
     display: flex;
-    background-color: rgb(0, 0, 0); 
+    background-color: rgb(255, 255, 255); 
        
 
 }
@@ -21,12 +21,12 @@ body
 {
 width: 1200px;
 height: 1200px;
-background-color: rgb(23, 8, 65);
+background-color: rgb(0, 0, 0);
 border-radius: 1000px;
 position: relative;
 top: -500px;
 left: -175px;
-border-color: rgb(146, 146, 146);
+border-color: rgb(0, 0, 0);
 border-width: 5px;
 border-style: solid;
 display: flex;
@@ -38,21 +38,22 @@ flex-direction: column;
 color: white;
 font-size: 80px;
 font-family: sans-serif;
+box-shadow: 10px 5px 5px black;
 }
 .Entrar
 {
     width: 25%;
     
-    background-color: rgb(23, 8, 65);
+    background-color: rgb(39, 31, 31);
     left: 925px;
     top: 110px;
-    position: absolute;
-    border-color: rgb(146, 146, 146);
+    position: absolute; 
+    border-color: rgb(0, 0, 0);
     border-width: 5px;
-    border-style: solid;
-    box-shadow: 5px;
+    border-style: ;
     font-size: 20px;
     border-radius: 30px;
+    box-shadow: 10px 5px 5px black;
     
 }
 .caixa_larga
